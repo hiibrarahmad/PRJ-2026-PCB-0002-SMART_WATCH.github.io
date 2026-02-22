@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 20px;
+            padding: 15px 25px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        #back-button {
+            display: none;
+            position: fixed;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        #back-button:hover {
+            background-color: rgba(0, 0, 0, 0.7); /* Slightly darker on hover */
+        }
+
+        iframe {
+            width: 100%;
+            height: 100vh;
+            border: none;
+        }
+
+        #menu {
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <h1>Welcome to the Board Viewer</h1>
+        <a href="#" class="button" onclick="loadPage('src/main.html')">Main Board</a>
+        <a href="#" class="button" onclick="loadPage('src/src/Charger.html')">Wireless Board</a>
+        <a href="#" class="button" onclick="loadPage('src/step.html')">Step File</a>
+    </div>
+    <button id="back-button" onclick="showMenu()">Back to Menu</button>
+    <iframe id="iframe" src="" hidden></iframe>
+
+    <script>
+        function loadPage(url) {
+            document.getElementById('menu').style.display = 'none';
+            document.getElementById('iframe').src = url;
+            document.getElementById('iframe').hidden = false;
+            document.getElementById('back-button').style.display = 'block';
+        }
+
+        function showMenu() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('iframe').hidden = true;
+            document.getElementById('iframe').src = '';
+            document.getElementById('back-button').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
