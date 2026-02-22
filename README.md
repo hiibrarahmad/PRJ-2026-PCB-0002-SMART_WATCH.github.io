@@ -1,3 +1,5 @@
+![Main Board Top](src/IMAGES/PRJ-2026-PCB-0002-SMART_WATCH.jpg)
+
 # ⚡ PRJ-2026-PCB-0002-SMART_WATCH
 ### Dual-Board Smart Watch PCB — Main Board & Wireless Charging Board
 **Designed by hiibrarahmad · Powered by nRF5340 SoC**
@@ -27,16 +29,16 @@
 
 ## 🖼️ PCB Preview
 
-### 🔝 Main Board — Top Side
 
-| Top View | Bottom View |
-|----------|-------------|
-| ![Main Board Top](src/IMAGES/PRJ-2026-PCB-0002-SMART_WATCH.jpg) | ![Main Board Bottom](src/IMAGES/PRJ-2026-PCB-0002-SMART_WATCHBOT.jpg) |
+
+| 🔝 Top Side | 🔻 Bottom Side |
+|-------------|----------------|
+|  ![Main Board Bottom](src/IMAGES/PRJ-2026-PCB-0002-SMART_WATCHBOT.jpg) | ![Main Board Top](src/IMAGES/PRJ-2026-PCB-0002-SMART_WATCH.jpg) |
 
 ### 🔋 Charger Board — Top & Bottom
 
-| Top View | Bottom View |
-|----------|-------------|
+| 🔝 Top Side | 🔻 Bottom Side |
+|-------------|----------------|
 | ![Charger Top](src/IMAGES/PRJ-2026-PCB-0002-SMART_WATCH-CHARGER.jpg) | ![Charger Bottom](src/IMAGES/PRJ-2026-PCB-0002-SMART_WATCH-CHARGERBOT.jpg) |
 
 🔗 **[→ View Interactive PCB Online](https://hiibrarahmad.github.io/PRJ-2026-PCB-0002-SMART_WATCH.github.io/)**
