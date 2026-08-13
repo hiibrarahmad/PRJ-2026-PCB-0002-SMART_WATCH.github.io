@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>Smart Watch — Board Viewer</title>
     <style>
         body {
             margin: 0;
@@ -37,7 +37,7 @@
             padding: 10px 20px;
             font-size: 16px;
             color: white;
-            background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+            background-color: rgba(0, 0, 0, 0.5);
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -45,7 +45,7 @@
         }
 
         #back-button:hover {
-            background-color: rgba(0, 0, 0, 0.7); /* Slightly darker on hover */
+            background-color: rgba(0, 0, 0, 0.7);
         }
 
         iframe {
@@ -62,10 +62,9 @@
 </head>
 <body>
     <div id="menu">
-        <h1>Welcome to the Board Viewer</h1>
-        <a href="#" class="button" onclick="loadPage('src/main.html')">Main Board</a>
-        <a href="#" class="button" onclick="loadPage('src/src/Charger.html')">Wireless Board</a>
-        <a href="#" class="button" onclick="loadPage('src/step.html')">Step File</a>
+        <h1>Smart Watch — Board Viewer</h1>
+        <a href="#" class="button" onclick="loadPage('main.html')">Main Board</a>
+        <a href="#" class="button" onclick="loadPage('charger.html')">Wireless Charger Board</a>
     </div>
     <button id="back-button" onclick="showMenu()">Back to Menu</button>
     <iframe id="iframe" src="" hidden></iframe>

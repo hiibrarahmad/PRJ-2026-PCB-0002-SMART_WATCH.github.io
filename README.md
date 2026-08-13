@@ -1,6 +1,6 @@
-![Main Board Top](src/IMAGES/PRJ-2026-PCB-0002-SMART_WATCH.jpg)
+![Main Board Top](IMAGES/PRJ-2026-PCB-0002-SMART_WATCH.jpg)
 
-# ⚡ PRJ-2026-PCB-0002-SMART_WATCH
+# ⚡ PRJ-PCB-1005-2026-SmartWatch
 ### Dual-Board Smart Watch PCB — Main Board & Wireless Charging Board
 **Designed by hiibrarahmad · Powered by nRF5340 SoC**
 
@@ -10,18 +10,18 @@
 [![RoHS](https://img.shields.io/badge/RoHS-Compliant-4ade80?style=for-the-badge)](#)
 [![Wireless](https://img.shields.io/badge/Wireless-BLE%205.3%20%2B%20Qi-a855f7?style=for-the-badge)](#)
 [![Surface Finish](https://img.shields.io/badge/Finish-Immersion%20Gold%20(ENIG)-f59e0b?style=for-the-badge)](#)
-[![License](https://img.shields.io/badge/License-Proprietary-dc2626?style=for-the-badge)](./LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/hiibrarahmad/PRJ-2026-PCB-0002-SMART_WATCH.github.io?style=for-the-badge&color=0891b2&label=Last%20Commit)](../../commits/main)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-22c55e?style=for-the-badge&logo=github)](https://hiibrarahmad.github.io/PRJ-2026-PCB-0002-SMART_WATCH.github.io/)
-[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=hiibrarahmad.PRJ-2026-PCB-0002-SMART_WATCH.github.io&style=for-the-badge&color=0e7490)](https://github.com/hiibrarahmad/PRJ-2026-PCB-0002-SMART_WATCH.github.io)
+[![License](https://img.shields.io/badge/License-Proprietary-dc2626?style=for-the-badge)](#)
+[![Last Commit](https://img.shields.io/github/last-commit/hiibrarahmad/PRJ-PCB-1005-2026-SmartWatch.github.io?style=for-the-badge&color=0891b2&label=Last%20Commit)](../../commits/main)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-22c55e?style=for-the-badge&logo=github)](https://hiibrarahmad.github.io/PRJ-PCB-1005-2026-SmartWatch.github.io/)
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=hiibrarahmad.PRJ-PCB-1005-2026-SmartWatch.github.io&style=for-the-badge&color=0e7490)](https://github.com/hiibrarahmad/PRJ-PCB-1005-2026-SmartWatch.github.io)
 
-[🔬 Interactive PCB View](https://hiibrarahmad.github.io/PRJ-2026-PCB-0002-SMART_WATCH.github.io/) · [📋 Project Assets](https://github.com/hiibrarahmad/PRJ-2026-PCB-0002-SMART_WATCH.github.io/tree/main/src/IMAGES) · [📜 License](./LICENSE)
+[🔬 Interactive PCB View](https://hiibrarahmad.github.io/PRJ-PCB-1005-2026-SmartWatch.github.io/) · [📋 Project Assets](https://github.com/hiibrarahmad/PRJ-PCB-1005-2026-SmartWatch.github.io/tree/main/IMAGES)
 
 ---
 
 ## 📖 Project Overview
 
-**PRJ-2026-PCB-0002-SMART_WATCH** is a **compact dual-board smart watch platform** featuring a main application board with a color IPS/e-Paper display and a dedicated wireless charging board with Qi inductive charging support. Designed around the **Nordic Semiconductor nRF5340** dual-core SoC, this wearable platform integrates Bluetooth 5.3, health sensing (PPG + SpO2 + ECG), environmental monitoring, CO₂ sensing, and a full IMU — all packed into a wristwatch form factor.
+**PRJ-PCB-1005-2026-SmartWatch** is a **compact dual-board smart watch platform** featuring a main application board with a color IPS/e-Paper display and a dedicated wireless charging board with Qi inductive charging support. Designed around the **Nordic Semiconductor nRF5340** dual-core SoC, this wearable platform integrates Bluetooth 5.3, health sensing (PPG + SpO2 + ECG), environmental monitoring, CO₂ sensing, and a full IMU — all packed into a wristwatch form factor.
 
 > 💡 The **Main Board** hosts the nRF5340 SoC and all application peripherals including display, sensors, and connectivity. The **Charger Board** provides wireless Qi charging reception via BQ51003, battery management via BQ25100, and PPG/SpO2 sensing via MAX86150.
 
@@ -33,15 +33,15 @@
 
 | 🔝 Top Side | 🔻 Bottom Side |
 |-------------|----------------|
-|  ![Main Board Bottom](src/IMAGES/PRJ-2026-PCB-0002-SMART_WATCHBOT.jpg) | ![Main Board Top](src/IMAGES/PRJ-2026-PCB-0002-SMART_WATCH.jpg) |
+|  ![Main Board Bottom](IMAGES/PRJ-2026-PCB-0002-SMART_WATCHBOT.jpg) | ![Main Board Top](IMAGES/PRJ-2026-PCB-0002-SMART_WATCH.jpg) |
 
 ### 🔋 Charger Board — Top & Bottom
 
 | 🔝 Top Side | 🔻 Bottom Side |
 |-------------|----------------|
-| ![Charger Top](src/IMAGES/PRJ-2026-PCB-0002-SMART_WATCH-CHARGER.jpg) | ![Charger Bottom](src/IMAGES/PRJ-2026-PCB-0002-SMART_WATCH-CHARGERBOT.jpg) |
+| ![Charger Top](IMAGES/PRJ-2026-PCB-0002-SMART_WATCH-CHARGER.jpg) | ![Charger Bottom](IMAGES/PRJ-2026-PCB-0002-SMART_WATCH-CHARGERBOT.jpg) |
 
-🔗 **[→ View Interactive PCB Online](https://hiibrarahmad.github.io/PRJ-2026-PCB-0002-SMART_WATCH.github.io/)**
+🔗 **[→ View Interactive PCB Online](https://hiibrarahmad.github.io/PRJ-PCB-1005-2026-SmartWatch.github.io/)**
 
 ---
 
@@ -58,66 +58,6 @@
 | 💨 **Air Quality** | CO₂ / eCO₂ / TVOC sensing via CCS811 |
 | 🏃 **Motion Sensing** | 6-axis IMU via ICM-20689 |
 | 🔒 **Security** | ARM TrustZone on Cortex-M33, Secure Boot |
-
----
-
-## 🧠 System Architecture
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                     SMART WATCH — MAIN BOARD                        │
-│                                                                     │
-│  ┌──────────────────────────────────────────────────────────────┐  │
-│  │                  nRF5340 SoC (QKA package)                   │  │
-│  │        Dual-Core: Cortex-M33 App @ 128 MHz + Net @ 64 MHz   │  │
-│  │     1 MB Flash + 512 KB RAM (App) · 256 KB Flash + RAM (Net)│  │
-│  └──────────┬───────────────────────────────────────────────────┘  │
-│             │                                                       │
-│  ┌──────────▼──────────────────────────────────────────────────┐   │
-│  │                    DISPLAY OUTPUT                            │   │
-│  │  SPI ──▶ 1.54" IPS TFT LCD (ER-TFT1.54-1)                 │   │
-│  │  SPI ──▶ 1.54" e-Paper Display (GDEW0154T8DE)              │   │
-│  └─────────────────────────────────────────────────────────────┘   │
-│                                                                     │
-│  ┌─────── SENSORS ─────────────────────────────────────────────┐   │
-│  │  I2C ──▶ BME680 (Temp / Humidity / Pressure / Gas)          │   │
-│  │  I2C ──▶ CCS811 (CO₂ / TVOC)                               │   │
-│  │  SPI ──▶ ICM-20689 (6-axis IMU: Accel + Gyro)              │   │
-│  │  PDM ──▶ ICS-43432 (Digital MEMS Microphone)               │   │
-│  └─────────────────────────────────────────────────────────────┘   │
-│                                                                     │
-│  ┌─────── STORAGE & DEBUG ─────────────────────────────────────┐   │
-│  │  SPI ──▶ M95512-A125 (512 Kbit EEPROM)                      │   │
-│  │  SWD ──▶ FTSH-105 JTAG/SWD Debug Connector                 │   │
-│  │  USB-C ──▶ 2305018-2 Connector (USB Full Speed)             │   │
-│  │  RF ──▶ 2450AT18D0100 (2.4 GHz Chip Antenna)               │   │
-│  └─────────────────────────────────────────────────────────────┘   │
-│                                                                     │
-│  ┌─────── CLOCKING ────────────────────────────────────────────┐   │
-│  │  X1: 32 MHz XTAL (2016) — Main RF/CPU clock                 │   │
-│  │  X2: 32.768 kHz XTAL (2012) — RTC / Low-power clock        │   │
-│  └─────────────────────────────────────────────────────────────┘   │
-└─────────────────────────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────────────────────────┐
-│                     SMART WATCH — CHARGER BOARD                     │
-│                                                                     │
-│  ┌──────────────┐   ┌──────────────┐   ┌──────────────────────┐   │
-│  │ Qi Rx Coil   │──▶│   BQ51003    │──▶│      BQ25100         │   │
-│  │ (Wireless)   │   │ Wireless Rx  │   │  Battery Charger     │   │
-│  └──────────────┘   └──────────────┘   └─────────┬────────────┘   │
-│                                                   │                 │
-│  ┌─────── HEALTH SENSING ──────────────────────── ▼──────────────┐ │
-│  │  I2C ──▶ MAX86150 (PPG + SpO2 + ECG front-end)               │ │
-│  └────────────────────────────────────────────────────────────────┘ │
-│                                                                     │
-│  ┌─────── POWER RAILS ─────────────────────────────────────────┐   │
-│  │  VBAT ──▶ Battery Interface (VBAT pads)                      │   │
-│  │  Coil1 / Coil2 ──▶ Wireless Coil Interface                  │   │
-│  │  FB1 (BLM15AX102SN1D) ──▶ EMI Ferrite Bead Filter          │   │
-│  └─────────────────────────────────────────────────────────────┘   │
-└─────────────────────────────────────────────────────────────────────┘
-```
 
 ---
 
@@ -185,7 +125,7 @@ This board is built around the **Nordic Semiconductor nRF5340** — the world's 
 
 ## 📋 Bill of Materials Summary
 
-### 🟦 Main Board (PRJ-2026-PCB-0002-SMART_WATCH)
+### 🟦 Main Board (PRJ-PCB-1005-2026-SmartWatch)
 
 | Category | Key Components | Qty |
 |----------|---------------|-----|
@@ -204,7 +144,7 @@ This board is built around the **Nordic Semiconductor nRF5340** — the world's 
 | ⚡ **Diodes** | MBR0530 Schottky (SOD-123) | 3 |
 | 📦 **Passives** | Resistors, Capacitors (0402/0603), Inductors | ~65 |
 
-### 🟧 Charger Board (PRJ-2026-PCB-0002-SMART_WATCH-CHARGER)
+### 🟧 Charger Board (PRJ-PCB-1005-2026-SmartWatch-Charger)
 
 | Category | Key Components | Qty |
 |----------|---------------|-----|
@@ -322,36 +262,18 @@ The dual-board platform is designed to fulfill the following product-level requi
 ## 📁 Repository Structure
 
 ```
-PRJ-2026-PCB-0002-SMART_WATCH.github.io/
+PRJ-PCB-1005-2026-SmartWatch.github.io/
 │
-├── src/
-│   ├── IMAGES/
-│   │   ├── PRJ-2026-PCB-0002-SMART_WATCH.jpg          ← Main Board Top (JPG)
-│   │   ├── PRJ-2026-PCB-0002-SMART_WATCHBOT.jpg       ← Main Board Bottom (JPG)
-│   │   ├── PRJ-2026-PCB-0002-SMART_WATCH-CHARGER.jpg  ← Charger Board Top (JPG)
-│   │   └── PRJ-2026-PCB-0002-SMART_WATCH-CHARGERBOT.jpg ← Charger Board Bottom (JPG)
-│   ├── assets/                                         ← Web viewer assets
-│   ├── dist/                                           ← Build output
-│   ├── src/                                            ← Viewer source code
-│   └── tests/                                          ← Test files
+├── IMAGES/
+│   ├── PRJ-2026-PCB-0002-SMART_WATCH.jpg          ← Main Board Top (JPG)
+│   ├── PRJ-2026-PCB-0002-SMART_WATCHBOT.jpg       ← Main Board Bottom (JPG)
+│   ├── PRJ-2026-PCB-0002-SMART_WATCH-CHARGER.jpg  ← Charger Board Top (JPG)
+│   └── PRJ-2026-PCB-0002-SMART_WATCH-CHARGERBOT.jpg ← Charger Board Bottom (JPG)
 │
-├── .github/
-│   └── ISSUE_TEMPLATE/
-│       ├── bug_report.md                               ← Bug report template
-│       ├── feature_request.md                          ← Feature request template
-│       └── question.md                                 ← Question template
-│
-├── index.html                                          ← Interactive PCB viewer
-├── main.html                                           ← Main board viewer
-├── step.html                                           ← Step model viewer
-├── package.json                                        ← Node.js project config
-├── rollup.config.js                                    ← Bundle config
-├── tsconfig.json                                       ← TypeScript config
-├── .gitattributes
-├── .gitignore
-├── .eslintrc
-├── LICENSE                                             ← License
-└── README.md                                           ← This file
+├── index.html      ← Board picker (Main Board / Wireless Charger Board)
+├── main.html       ← Main board interactive PCB/BOM viewer
+├── charger.html    ← Wireless charger board interactive PCB/BOM viewer
+└── README.md       ← This file
 ```
 
 ---
@@ -360,16 +282,16 @@ PRJ-2026-PCB-0002-SMART_WATCH.github.io/
 
 | Resource | URL |
 |----------|-----|
-| 🌐 **Interactive PCB View** | [hiibrarahmad.github.io/PRJ-2026-PCB-0002-SMART_WATCH.github.io](https://hiibrarahmad.github.io/PRJ-2026-PCB-0002-SMART_WATCH.github.io/) |
+| 🌐 **Interactive PCB View** | [hiibrarahmad.github.io/PRJ-PCB-1005-2026-SmartWatch.github.io](https://hiibrarahmad.github.io/PRJ-PCB-1005-2026-SmartWatch.github.io/) |
 | 📦 **nRF5340 SoC** | [Nordic Semiconductor nRF5340](https://www.nordicsemi.com/products/nrf5340) |
 | 📝 **nRF Connect SDK** | [developer.nordicsemi.com](https://developer.nordicsemi.com) |
-| 📜 **License** | [LICENSE](./LICENSE) |
+| 📜 **License** | Proprietary — © 2026 hiibrarahmad. All Rights Reserved. |
 
 ---
 
 <div align="center">
 
-**PRJ-2026-PCB-0002-SMART_WATCH**
+**PRJ-PCB-1005-2026-SmartWatch**
 
 *Dual-Board Smart Watch Platform · Main Board + Wireless Charger Board*
 
